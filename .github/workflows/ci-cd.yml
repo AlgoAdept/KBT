@@ -78,13 +78,13 @@ jobs:
             cd /home/ec2-user
             
             # Clean up old repo
-            rm -rf demo-app
+            rm -rf KBT
 
             echo "Cloning repo..."
             # Replace this URL with your specific repo if different
             git clone https://github.com/AlgoAdept/KBT.git
             
-            cd demo-app
+            cd KBT
 
             echo "Stopping old container..."
             sudo docker rm -f nginx-container || true
