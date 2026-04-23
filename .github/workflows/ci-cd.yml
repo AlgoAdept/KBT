@@ -82,7 +82,7 @@ jobs:
 
             echo "Cloning repo..."
             # Replace this URL with your specific repo if different
-            git clone https://github.com/rajatdevops1/demo-app.git
+            git clone https://github.com/AlgoAdept/KBT.git
             
             cd demo-app
 
